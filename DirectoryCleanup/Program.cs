@@ -59,10 +59,10 @@ namespace DirectoryCleanup
             Console.WriteLine(processName + " [-d#] [drive:]path");
             Console.WriteLine("\t" + "-d#" + "\t" + "days" + "\t" + "Replace # with an integer amount of days, defaults to " + LifespanDefault);
             Console.WriteLine(" ");
-            Console.WriteLine("Example: " + processName + " -d10 C:/Users/Owner/Downloads");
+            Console.WriteLine("Example: " + processName + " -d10 \"C:/Users/Owner/Downloads/\"");
             Console.WriteLine("\tDeletes files that have not been modified in 10 days within every");
-            Console.WriteLine("\tsubdirectory inside C:/Users/Owner/Downloads");
-            Console.WriteLine("\tAlso removes any empty subdirectories inside C:/Users/Owner/Downloads");
+            Console.WriteLine("\tsubdirectory inside C:/Users/Owner/Downloads/");
+            Console.WriteLine("\tAlso removes any empty subdirectories inside C:/Users/Owner/Downloads/");
 
         }
 
