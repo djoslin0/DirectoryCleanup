@@ -17,3 +17,6 @@ Here is an example that will remove any file that has not been modified in 10 da
 `DirectoryCleanup -d10 c:/your/path/here/`
 
 I recommend that you run the program as a [scheduled task](https://technet.microsoft.com/en-us/library/cc748993(v=ws.11).aspx), otherwise you will have to run the program manually every time you want to clean a particular folder.
+
+# Download
+[Download the compiled application](https://github.com/djoslin0/DirectoryCleanup/releases)
